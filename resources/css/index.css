@@ -16,6 +16,19 @@ h2 {
     font-weight: 700;
     font-size: 32px;
 }
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0;
+}
+
+.highlight_text {
+    /*color: #871B00;*/
+    color: #1E4445;
+}
+
 /*fixed nav bar*/
 
 header {
@@ -65,11 +78,10 @@ nav p {
 
 .splash {
     display: flex;
-    width: 100%;
     top: 64px;
     right: 0;
     left: 0;
-    background-color: gray;
+    background-color: #8FC3C4;
     padding: 32px 24px;
     align-items: center;
 }
@@ -80,11 +92,38 @@ nav p {
 
 .splash_info {
     margin: 24px;
-    width: 35%;
+    width: 30%;
+}
+
+.splash_button {
+    background-color: #F5B734;
+    color: white;
+    width: 100%;
+    border: 0px;
+    font-family: "Raleway", sans-serif;
+    padding: 8px 0;
+    margin: 0 0;
+    transition: all 750ms ease-out 0ms;
+}
+
+.splash_button:hover {
+    background-color: white;
+    color: black;
 }
 
 /*news section*/
 
 .news {
     display: flex;
+    padding: 32px 24px;
+}
+
+.news_spotlight img {
+    width: 60%;
+    height: auto;
+}
+
+.news_spotlight h2 {
+    margin-top: 32px;
+    margin-bottom: 24px;
 }
