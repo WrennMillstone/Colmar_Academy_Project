@@ -24,6 +24,15 @@ h4 {
     margin: 0 0;
 }
 
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: #F5B734;
+}
+
 .highlight_text {
     /*color: #871B00;*/
     color: #1E4445;
@@ -74,6 +83,10 @@ nav p {
     margin: 0 8px;
 }
 
+.link {
+    color: black;
+}
+
 /*Splash*/
 
 .splash {
@@ -118,6 +131,11 @@ nav p {
     padding: 32px 24px;
 }
 
+.news_spotlight {
+ margin-right: 24px;
+ width: 60%;
+}
+
 .news_spotlight img {
     width: 60%;
     height: auto;
@@ -126,4 +144,23 @@ nav p {
 .news_spotlight h2 {
     margin-top: 32px;
     margin-bottom: 24px;
+}
+
+.news_sub {
+    width: 40%;
+    border-left: 1px solid lightslategray;
+}
+
+.news_sub img {
+    width: 35%;
+    height: auto;
+}
+
+.sub_item {
+    padding: 16px;
+    transition: background-color 400ms ease-out 0ms;
+}
+
+.sub_item:hover {
+    background-color: #8FC3C4;
 }
