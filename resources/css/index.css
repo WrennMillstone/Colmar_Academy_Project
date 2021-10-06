@@ -2,6 +2,22 @@ html {
     font-family: "Raleway", sans-serif;
 }
 
+body {
+    margin: 0;
+    padding-top: 64px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+/*fixed nav bar*/
+
 header {
     display: flex;
     position: fixed;
@@ -13,7 +29,7 @@ header {
     width: 100%;
     padding: 16px 0;
     justify-content: space-between;
-    background-color: gray;
+    background-color: white;
 }
 
 .logo {
@@ -49,6 +65,26 @@ nav p {
 
 .splash {
     display: flex;
+    width: 100%;
     top: 64px;
-    position: relative;
+    right: 0;
+    left: 0;
+    background-color: gray;
+    padding: 32px 24px;
+    align-items: center;
+}
+
+.splash img {
+    width: 60%;
+}
+
+.splash_info {
+    margin: 24px;
+    width: 35%;
+}
+
+/*news section*/
+
+.news {
+    display: flex;
 }
