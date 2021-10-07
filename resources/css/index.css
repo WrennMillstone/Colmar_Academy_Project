@@ -215,3 +215,54 @@ nav p {
 .course_content {
     margin: 16px 16px;
 }
+
+/*thesis section*/
+
+.thesis {
+    background-color: whitesmoke;
+}
+
+.thesis h1 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.thesis_flex {
+    display: flex;
+    padding: 32px 24px;
+}
+
+.thesis_spotlight {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.thesis_spotlight video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.thesis_sub {
+    width: 40%;
+}
+
+.thesis_subitem {
+    display: flex;
+    align-items: center;
+    transition: background-color 400ms ease-out 0ms;
+}
+
+.thesis_subitem:hover {
+    background-color: #8FC3C4;
+}
+
+.thesis_subitem img {
+    height: auto;
+    width: 35%;
+    padding: 16px 16px;
+}
+
+.thesis_subitem_content {
+    width: 65%;
+}
