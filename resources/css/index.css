@@ -289,3 +289,42 @@ footer {
 .foot_links > * {
     margin-right: 16px;
 }
+
+/*hide mobile on non mobile*/
+
+.mobile_nav {
+    display: none;
+}
+
+/*responsive mobile*/
+
+@media screen and (max-width: 600px) {
+
+    /*nav bar*/
+    .mobile_nav {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-evenly;
+    }
+    
+    .logo, nav {
+        display: none;
+    }
+
+    /*splash*/
+    .splash img {
+        width: 100%;
+    }
+
+    .splash {
+        padding: 0 0;
+        flex-direction: column;
+    }
+
+    .splash_info {
+        margin: 0 0;
+        padding: 16px 32px;
+        width: auto;
+    }
+}
