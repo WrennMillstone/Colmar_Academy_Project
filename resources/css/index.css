@@ -1,5 +1,6 @@
 html {
     font-family: "Raleway", sans-serif;
+    color: #4d4d4d;
 }
 
 body {
@@ -14,7 +15,6 @@ h1 {
 
 h2 {
     font-weight: 700;
-    font-size: 32px;
 }
 
 h1,
@@ -135,8 +135,9 @@ nav p {
 }
 
 .news_spotlight {
- margin-right: 24px;
- width: 60%;
+    position: relative;
+    margin-right: 24px;
+    width: 60%;
 }
 
 .news_spotlight img {
@@ -149,6 +150,12 @@ nav p {
     margin-bottom: 24px;
 }
 
+.quote_name {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0;
+}
+
 .news_sub {
     width: 40%;
     border-left: 1px solid lightslategray;
@@ -156,12 +163,16 @@ nav p {
 
 .news_sub img {
     width: 35%;
+    min-width: 35%;
     height: auto;
+    margin: 16px;
 }
 
 .sub_item {
-    padding: 16px;
+    display: flex;
+    align-items: center;
     transition: background-color 400ms ease-out 0ms;
+    word-wrap: normal;
 }
 
 .sub_item:hover {
