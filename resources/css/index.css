@@ -201,6 +201,11 @@ nav p {
     width: 25%;
     margin: 16px 16px;
     background-color: whitesmoke;
+    transition: background-color 400ms ease-out 0ms;
+}
+
+.course:hover {
+    background-color: #F5B734;
 }
 
 .course img {
