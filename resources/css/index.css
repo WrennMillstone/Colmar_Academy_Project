@@ -54,7 +54,8 @@ header {
     width: 100%;
     padding: 16px 0;
     justify-content: space-between;
-    background-color: white;
+    background-color: whitesmoke;
+    border-bottom: 2px solid lightgray;
 }
 
 .logo {
@@ -113,7 +114,7 @@ nav p {
 
 .splash_button {
     background-color: #F5B734;
-    color: white;
+    color: whitesmoke;
     width: 100%;
     border: 0px;
     font-family: "Raleway", sans-serif;
@@ -123,7 +124,7 @@ nav p {
 }
 
 .splash_button:hover {
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -132,6 +133,7 @@ nav p {
 .news {
     display: flex;
     padding: 32px 24px;
+    background-color: whitesmoke;
 }
 
 .news_spotlight {
@@ -141,7 +143,7 @@ nav p {
 }
 
 .news_spotlight img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
@@ -150,15 +152,9 @@ nav p {
     margin-bottom: 24px;
 }
 
-.quote_name {
-    position: absolute;
-    bottom: 0;
-    margin: 0 0;
-}
-
 .news_sub {
     width: 40%;
-    border-left: 1px solid lightslategray;
+    border-left: 1px solid lightgray;
 }
 
 .news_sub img {
@@ -177,4 +173,45 @@ nav p {
 
 .sub_item:hover {
     background-color: #8FC3C4;
+}
+
+/*Courses section*/
+
+.courses {
+    background-color: #8FC3C4;
+}
+
+.courses h1 {
+    padding: 16px 0;
+    margin: 0 0;
+    text-align: center;
+}
+
+.course_grid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 0;
+    padding: 0 56px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.course {
+    width: 25%;
+    margin: 16px 16px;
+    background-color: whitesmoke;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course.break {
+    break-after: always;
+}
+
+.course_content {
+    margin: 16px 16px;
 }
