@@ -367,7 +367,7 @@ footer {
     }
     
     .sub_item p {
-        width: max-content;
+        width: 100%;
     }
 
     /*courses*/
@@ -400,5 +400,31 @@ footer {
     .courses h1 {
         padding-bottom: 12px;
 
+    }
+
+    /*thesis*/
+    .thesis_sub {
+        display: none;
+    }
+
+    .thesis_flex {
+        padding: 0 0;
+    }
+
+    .thesis_spotlight_content {
+        display: none;
+    }
+    
+    .thesis_spotlight {
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .thesis_spotlight video {
+        margin: 0 0;
+    }
+
+    .thesis h1 {
+        padding-bottom: 16px;
     }
 }
