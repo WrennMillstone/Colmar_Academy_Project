@@ -355,6 +355,7 @@ footer {
 
     .news_sub {
         width: 100%;
+        border-left: none;
     }
 
     .sub_item {
