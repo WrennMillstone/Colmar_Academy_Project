@@ -369,4 +369,36 @@ footer {
     .sub_item p {
         width: max-content;
     }
+
+    /*courses*/
+    .courses img {
+        display: none;
+    }
+
+    .courses p {
+        display: none;
+    }
+
+    .course_grid {
+        flex-direction: column;
+        padding: 16px 16px;
+    }
+
+    .course {
+        width: 100%;
+        margin: 4px 0;
+    }
+
+    .course:hover {
+        background-color: #F5B734;
+    }
+
+    .course_content {
+        margin: 16px 16px;
+    }
+
+    .courses h1 {
+        padding-bottom: 12px;
+
+    }
 }
