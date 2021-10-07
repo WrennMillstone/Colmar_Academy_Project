@@ -88,7 +88,7 @@ nav p {
 }
 
 .link {
-    color: black;
+    color: #4d4d4d;
 }
 
 /*Splash*/
@@ -248,6 +248,7 @@ nav p {
 }
 
 .thesis_subitem {
+    padding-right: 16px;
     display: flex;
     align-items: center;
     transition: background-color 400ms ease-out 0ms;
@@ -265,4 +266,26 @@ nav p {
 
 .thesis_subitem_content {
     width: 65%;
+}
+
+/*footer*/
+
+footer {
+    padding: 16px 24px;
+    background-color: whitesmoke;
+    padding-bottom: 36px;
+    border-top: 2px solid lightgray;
+}
+
+.foot_text {
+    display: inline;
+}
+
+.foot_links {
+    display: inline;
+    float: right;
+}
+
+.foot_links > * {
+    margin-right: 16px;
 }
