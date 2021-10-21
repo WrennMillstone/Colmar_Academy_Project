@@ -1,2 +1,2 @@
 # Colmar_Academy_Project
-codecademy practice project
+A dummy landing page to pratice using HTML and CSS in conjuntion, as well as responsive CSS for different screen sizes.
